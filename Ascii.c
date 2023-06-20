@@ -7,5 +7,10 @@
  */
 int main(void)
 {
-    return (0);
+	char at;	
+	printf("Enter the character\n");
+	scanf("%c", & at);
+
+	printf("\n The ASCII value of %c is %d\n ", at,at);
+    	return (0);
 }
