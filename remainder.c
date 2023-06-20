@@ -7,5 +7,14 @@
  */
 int main(void)
 {
-    return (0);
+	int num,denom,result;
+	printf("Enter the nummerator");
+	scanf(num);
+
+	printf("Enter the denominator");
+	scanf(denom);
+	
+	result = num % denom;
+
+   	 return (0);
 }
