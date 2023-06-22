@@ -5,7 +5,19 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int some_function(void);
+int main()
 {
-    return (0);
+printf("%d",some_function()); 
+}
+
+int some_function(void)
+{
+    int i;
+
+    for (i = 0; i < 10; i++)
+    {
+        printf("%d", i);
+    }
+    return(i);
 }
